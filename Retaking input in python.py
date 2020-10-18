@@ -1,5 +1,5 @@
 # --------------this is the code to re take input form the user if the code is't in the "integer format"--------------------------------
-
+j, jj, m = [], [], [[], [], []]
 
 def fd(th_u6, f_4hg, nu_t3):  # function for taking input from user
     condense = range(0, 9)  # this var is use to re take input 9 times if user enter wrong input
@@ -12,3 +12,6 @@ def fd(th_u6, f_4hg, nu_t3):  # function for taking input from user
         except:  # function jump to this except statment if error occure on the line 9
             print("you  entered  wrong value Dummy you can't add float or string :")  # the for loop will continue
             
+ x11, x12, x13 = fd(m, 'x11', 0), fd(m, 'x12', 0), fd(m, 'x13', 0)
+# x21, x22, x23 = fd(m, 'x21', 1), fd(m, 'x22', 1), fd(m, 'x33', 2)
+# x31, x32, x33 = fd(m, 'x23', 1), fd(m, 'x31', 2), fd(m, 'x32', 2)
